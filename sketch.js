@@ -1,7 +1,12 @@
-var nave;
+var bola, bolaAnimation;
+
+function preload(){
+    bolaAnimation = loadAnimation("../assets/sprite_0.png", "../assets/sprite_1.png");
+}
 
 function setup(){
-    nave = createSprite(200, 200);
+    bola = createSprite(200, 200);
+
 }
 
 function draw() {
