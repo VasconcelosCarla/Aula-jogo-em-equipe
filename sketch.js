@@ -5,7 +5,7 @@ function preload(){
 }
 
 function setup(){
-    createCanvas(1535,695);
+    createCanvas(1535,725);
     bola = createSprite(200, 200);
     bola.addAnimation("piscando",bolaAnimation);
     bola.scale = 3
