@@ -1,4 +1,9 @@
-var nave = createSprite(200, 200);
+var nave;
+
+function setup(){
+    nave = createSprite(200, 200);
+}
+
 function draw() {
-    drawSprite();
+    drawSprites();
 }
